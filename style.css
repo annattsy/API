@@ -1,0 +1,71 @@
+/* Fundo e estilos gerais */
+body {
+    background-color: #131847;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título */
+header {
+    padding: 20px;
+}
+
+h1 {
+    color: #eda302;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Barra de pesquisa */
+#search {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Container dos cards */
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo dos cards */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+    display: block; /* Evita espaços extras abaixo da imagem */
+}
+
+
+/* Nome dos personagens */
+.card p {
+    color: #131847;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
